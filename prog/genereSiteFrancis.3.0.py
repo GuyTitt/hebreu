@@ -275,11 +275,11 @@ tetePage="""<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
 <html><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <title>Dans la bible h&#233;bra&#239;que</title>
-<link rel="stylesheet" href="/mef/monstyle.css">
+<link rel="stylesheet" href="/hebreu/mef/monstyle.css">
 </head>
 <body><div class=monTitre>{}</div><br /><div class=monSousTitre>{}</div>""".format(encodeUTF8Web("Hébreu biblique :"),encodeUTF8Web("Mes dossiers partagés"))
 bulleTete="""<div>
-<button class="monbouton" type="button"	onclick="window.location.href = '/html/Documents.html';">Accueil</button>"""
+<button class="monbouton" type="button"	onclick="window.location.href = '/hebreu/html/Documents.html';">Accueil</button>"""
 bulleCorps="""<button class="monbouton" type="button"	onclick="window.location.href = '{}';">{}</button>"""
 bullePied="""</div>"""   # Version {}""".format(version)
 piedPage="""<br>

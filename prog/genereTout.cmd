@@ -6,14 +6,14 @@ echo .
 echo Pour fonctionner, cela necessite le langague python
 echo           et les bibliotheques : bottle, csv, argparse, html, io ,os
 echo .
-set versionsite=SiteOrange5
+set versionsite=SiteGITHUB
 rem les variables de chez guy et de chez francis
 IF "%HOMEPATH%" EQU "\Users\easy" (
 set racine=E:\%versionsite%
 ) ELSE (
-set racine=D:\%versionsite%
+set racine=G:\test\FrancisBoulanger\github\Hébreu
 )
-set version=2.9
+set version=3.0
 echo.
 echo ****************************************
 echo **        Cree les dossiers           **
@@ -30,7 +30,7 @@ echo.
 IF "%HOMEPATH%" EQU "\Users\easy" (
 call C:\Python310\EnVir\Base\Scripts\activate
 ) ELSE (
-call D:\Python310\EnvPython\Scripts\activate
+call C:\virPy11\Scripts\activate
 )
 echo.
 echo ****************************************
